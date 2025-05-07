@@ -43,7 +43,7 @@
         - [-] 4.1.4. Schema para pontuações de vieses comportamentais. (Incluído no `ClientProfile` como Text/JSON)
     - [-] 4.2. Desenvolvimento da API (FastAPI). (Estrutura inicial com CRUD para ClientProfile)
         - [X] 4.2.1. Endpoints CRUD para perfil do cliente. (Implementado em `src/api/endpoints/client_profiles.py`)
-        - [ ] 4.2.2. Autenticação e Autorização (OAuth2/JWT).
+        - [X] 4.2.2. Autenticação e Autorização (OAuth2/JWT). (Implementado com login endpoint, dependência `get_current_user`, e proteção dos endpoints de clientes)
         - [X] 4.2.3. Validação de dados (Pydantic). (Schemas em `src/api/schemas/client_profile.py` e CRUD helpers em `src/core/crud/crud_client_profile.py`)
         - [-] 4.2.4. Documentação da API (Swagger/OpenAPI). (Auto-gerada por FastAPI em `/api/v1/docs`)
     - [ ] 4.3. Integração com sistema de importação do Risk Number (se aplicável/disponível no Brasil).

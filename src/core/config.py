@@ -19,8 +19,13 @@ class Settings:
         f"{POSTGRES_SERVER}:{POSTGRES_PORT}/{POSTGRES_DB}"
     )
 
+    # Configurações de Segurança para JWT
+    SECRET_KEY: str = os.getenv("SECRET_KEY", "a_very_secret_key_please_change_in_production_environment")
+    ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "30"))
+
     # Futuras configurações (e.g., segredos da API, etc.) podem ser adicionadas aqui
-    # API_V1_STR: str = "/api/v1"
+    API_V1_STR: str = "/api/v1"
 
 settings = Settings()
 

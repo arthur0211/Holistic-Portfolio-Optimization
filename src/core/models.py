@@ -73,6 +73,23 @@ class ClientProfile(Base):
 #     name = Column(String(255), nullable=False)
 #     clients = relationship("ClientProfile", back_populates="advisor")
 
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    full_name = Column(String(255), nullable=True)
+    email = Column(String(255), unique=True, index=True, nullable=False)
+    hashed_password = Column(String(255), nullable=False)
+    is_active = Column(Boolean(), default=True)
+    # is_superuser = Column(Boolean(), default=False) # Se precisarmos de um superusuário
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+
+    # relationships - exemplo, se usuários pudessem "possuir" perfis de cliente diretamente
+    # client_profiles = relationship("ClientProfile", back_populates="owner_user")
+
+    def __repr__(self):
+        return f"<User(id={self.id}, email='{self.email}')>"
 
 # Configuração da Base de Dados e Engine (será em um arquivo separado, e.g., src/db/session.py)
 # from sqlalchemy import create_engine
