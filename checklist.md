@@ -36,16 +36,13 @@
 ## Fase 1: Fundação da Plataforma (M0-M3)
 
 ### 4. API de Perfil do Cliente (`Client-Profile API`)
-    - [ ] 4.1. Modelagem do banco de dados (PostgreSQL).
-        - [ ] 4.1.1. Schema para dados demográficos (adaptado para Brasil: CPF, etc.).
-        - [ ] 4.1.2. Schema para Risk Number.
-        - [ ] 4.1.3. Schema para perfil RISA.
-        - [ ] 4.1.4. Schema para pontuações de vieses comportamentais.
+    - [-] 4.1. Modelagem do banco de dados (PostgreSQL). (Modelos SQLAlchemy iniciais em `src/core/models.py`, configuração em `src/core/config.py`, sessão em `src/db/session.py`)
+        - [-] 4.1.1. Schema para dados demográficos (adaptado para Brasil: CPF, etc.). (Incluído no `ClientProfile`)
+        - [-] 4.1.2. Schema para Risk Number. (Incluído no `ClientProfile`)
+        - [-] 4.1.3. Schema para perfil RISA. (Incluído no `ClientProfile` com Enum `RISAQuadrant`)
+        - [-] 4.1.4. Schema para pontuações de vieses comportamentais. (Incluído no `ClientProfile` como Text/JSON)
     - [ ] 4.2. Desenvolvimento da API (FastAPI).
         - [ ] 4.2.1. Endpoints CRUD para perfil do cliente.
-        - [ ] 4.2.2. Autenticação e Autorização (OAuth2/JWT).
-        - [ ] 4.2.3. Validação de dados (Pydantic).
-        - [ ] 4.2.4. Documentação da API (Swagger/OpenAPI).
     - [ ] 4.3. Integração com sistema de importação do Risk Number (se aplicável/disponível no Brasil).
     - [ ] 4.4. Considerar campos para Suitability (API da CVM, se houver).
 
