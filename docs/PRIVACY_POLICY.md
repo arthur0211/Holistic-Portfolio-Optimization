@@ -104,7 +104,7 @@ Se dados pessoais forem transferidos para fora do Brasil (e.g., se uma instânci
 
 ## 9. Encarregado de Proteção de Dados (DPO)
 
-*   **Para o Software Open Source:** [Nome/Contato do Ponto de Contato para LGPD do Projeto - e.g., "Os mantenedores do projeto através do e-mail [email protected]"]
+*   **Para o Software Open Source:** O ponto de contato inicial para questões relacionadas à LGPD para o projeto open-source é Arthur ([Nome de Usuário GitHub: arthur0211](https://github.com/arthur0211)), através do e-mail [seu-email-de-contato-aqui@exemplo.com] ou abrindo uma "Issue" no repositório GitHub do projeto.
 *   **Para sua Instância Específica:** Se você é cliente de um assessor, o DPO é aquele designado pelo seu assessor ou pela instituição dele.
 
 ## 10. Alterações a Esta Política de Privacidade
