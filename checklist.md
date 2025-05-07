@@ -29,9 +29,9 @@
     - [X] 2.6. Definir estratégia de governança para o projeto open-source. (Documento inicial `docs/GOVERNANCE.md` criado)
 
 ### 3. Internacionalização e Localização (i18n/l10n) - Foco Brasil
-    - [ ] 3.1. Estruturar o projeto para suportar múltiplos idiomas, começando com Português do Brasil (pt-BR).
-    - [ ] 3.2. Definir formato para arquivos de tradução (e.g., JSON, YAML).
-    - [ ] 3.3. Coletar termos financeiros e de investimento específicos do mercado brasileiro.
+    - [X] 3.1. Estruturar o projeto para suportar múltiplos idiomas, começando com Português do Brasil (pt-BR). (Configuração inicial para Next.js e diretórios para FastAPI/Babel criados)
+    - [X] 3.2. Definir formato para arquivos de tradução (e.g., JSON, YAML). (JSON para frontend Next.js, PO files para backend FastAPI/Babel)
+    - [X] 3.3. Coletar termos financeiros e de investimento específicos do mercado brasileiro. (Arquivo inicial `docs/brazilian_financial_terms.md` criado)
 
 ## Fase 1: Fundação da Plataforma (M0-M3)
 
