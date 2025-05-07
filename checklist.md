@@ -12,7 +12,7 @@
         - [X] 1.5.2. Gerenciamento de dependências (Poetry) - (Utilizado requirements.txt e pip inicialmente).
         - [X] 1.5.3. Ferramentas de linting e formatação (Black, isort, Flake8/Pylint) - (Configurado no pyproject.toml, pacotes instalados).
         - [X] 1.5.4. Configuração de testes (pytest) - (Configurado no pyproject.toml, pacote instalado).
-        - [ ] 1.5.5. CI/CD pipeline inicial (GitHub Actions).
+        - [X] 1.5.5. CI/CD pipeline inicial (GitHub Actions). (Criado workflow básico em `.github/workflows/python-app.yml`)
 
 ### 2. Aspectos Legais e Open Source
     - [X] 2.1. Escolher uma licença open-source (e.g., MIT, Apache 2.0) - (MIT escolhida).
