@@ -41,8 +41,11 @@
         - [-] 4.1.2. Schema para Risk Number. (Incluído no `ClientProfile`)
         - [-] 4.1.3. Schema para perfil RISA. (Incluído no `ClientProfile` com Enum `RISAQuadrant`)
         - [-] 4.1.4. Schema para pontuações de vieses comportamentais. (Incluído no `ClientProfile` como Text/JSON)
-    - [ ] 4.2. Desenvolvimento da API (FastAPI).
-        - [ ] 4.2.1. Endpoints CRUD para perfil do cliente.
+    - [-] 4.2. Desenvolvimento da API (FastAPI). (Estrutura inicial com CRUD para ClientProfile)
+        - [X] 4.2.1. Endpoints CRUD para perfil do cliente. (Implementado em `src/api/endpoints/client_profiles.py`)
+        - [ ] 4.2.2. Autenticação e Autorização (OAuth2/JWT).
+        - [X] 4.2.3. Validação de dados (Pydantic). (Schemas em `src/api/schemas/client_profile.py` e CRUD helpers em `src/core/crud/crud_client_profile.py`)
+        - [-] 4.2.4. Documentação da API (Swagger/OpenAPI). (Auto-gerada por FastAPI em `/api/v1/docs`)
     - [ ] 4.3. Integração com sistema de importação do Risk Number (se aplicável/disponível no Brasil).
     - [ ] 4.4. Considerar campos para Suitability (API da CVM, se houver).
 
