@@ -25,7 +25,7 @@
         - [X] 2.3.2. LGPD (Lei Geral de Proteção de Dados Pessoais) - implicações e conformidade. (Documentado em `docs/regulatory_requirements_br.md`)
         - [X] 2.3.3. Requisitos do BACEN (Banco Central do Brasil) relevantes. (Documentado em `docs/regulatory_requirements_br.md`)
     - [ ] 2.4. Definir DPO (Data Protection Officer) inicial para o projeto.
-    - [ ] 2.5. Elaborar Política de Privacidade e Termos de Uso iniciais (rascunho).
+    - [X] 2.5. Elaborar Política de Privacidade e Termos de Uso iniciais (rascunho). (Criados `docs/PRIVACY_POLICY.md` e `docs/TERMS_OF_USE.md`)
     - [ ] 2.6. Definir estratégia de governança para o projeto open-source.
 
 ### 3. Internacionalização e Localização (i18n/l10n) - Foco Brasil
