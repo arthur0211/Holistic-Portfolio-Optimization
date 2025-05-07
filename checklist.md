@@ -3,10 +3,10 @@
 ## Fase 0: Planejamento e Configuração do Projeto (M0)
 
 ### 1. Definição e Estruturação do Projeto
-    - [ ] 1.1. Definir escopo detalhado do MVP (Minimum Viable Product) focado no mercado brasileiro.
-    - [ ] 1.2. Pesquisar e definir personas de HNWIs e assessores de investimento brasileiros.
-    - [ ] 1.3. Pesquisar e listar os principais concorrentes e soluções similares no Brasil.
-    - [ ] 1.4. Definir a stack tecnológica principal (confirmar Python 3.12, FastAPI, Postgres, React, Next.js, etc.).
+    - [X] 1.1. Definir escopo detalhado do MVP (Minimum Viable Product) focado no mercado brasileiro. (Documentado em `docs/mvp_scope.md`)
+    - [X] 1.2. Pesquisar e definir personas de HNWIs e assessores de investimento brasileiros. (Documentado em `docs/personas.md`)
+    - [X] 1.3. Pesquisar e listar os principais concorrentes e soluções similares no Brasil. (Documentado em `docs/competitor_analysis.md`)
+    - [X] 1.4. Definir a stack tecnológica principal (Python 3.12, FastAPI, Postgres para backend; Next.js para frontend UI do Assessor confirmados para MVP. Outros como Kafka, Rust/WASM para fases futuras).
     - [X] 1.5. Configurar o ambiente de desenvolvimento (local, dev, staging, prod).
         - [X] 1.5.1. Versionamento de código (Git, GitHub/GitLab).
         - [X] 1.5.2. Gerenciamento de dependências (Poetry) - (Utilizado requirements.txt e pip inicialmente).
@@ -20,10 +20,13 @@
         - [X] 2.2.1. `README.md` inicial com descrição do projeto, objetivos, como contribuir, e como rodar.
         - [X] 2.2.2. `CONTRIBUTING.md` com diretrizes para contribuições (coding style, processo de PR).
     - [X] 2.2.3. (Manual) Criar arquivo `.env` com base no `.env.example`.
-    - [ ] 2.3. Pesquisar e documentar requisitos regulatórios brasileiros para plataformas de investimento (CVM, Bacen).
-        - [ ] 2.3.1. Requisitos de suitability específicos do Brasil.
-        - [ ] 2.3.2. LGPD (Lei Geral de Proteção de Dados Pessoais) - implicações e conformidade.
-    - [ ] 2.4. Definir estratégia de governança para o projeto open-source.
+    - [X] 2.3. Pesquisar e documentar requisitos regulatórios brasileiros para plataformas de investimento (CVM, Bacen, LGPD). (Documentado em `docs/regulatory_requirements_br.md`)
+        - [X] 2.3.1. Requisitos de suitability específicos do Brasil (CVM). (Documentado em `docs/regulatory_requirements_br.md`)
+        - [X] 2.3.2. LGPD (Lei Geral de Proteção de Dados Pessoais) - implicações e conformidade. (Documentado em `docs/regulatory_requirements_br.md`)
+        - [X] 2.3.3. Requisitos do BACEN (Banco Central do Brasil) relevantes. (Documentado em `docs/regulatory_requirements_br.md`)
+    - [ ] 2.4. Definir DPO (Data Protection Officer) inicial para o projeto.
+    - [ ] 2.5. Elaborar Política de Privacidade e Termos de Uso iniciais (rascunho).
+    - [ ] 2.6. Definir estratégia de governança para o projeto open-source.
 
 ### 3. Internacionalização e Localização (i18n/l10n) - Foco Brasil
     - [ ] 3.1. Estruturar o projeto para suportar múltiplos idiomas, começando com Português do Brasil (pt-BR).
